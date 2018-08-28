@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarUsuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="514dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="305dp"
+            android:layout_height="72dp"
+            android:text="Ingresa Datos"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="297dp"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true"
+            android:text="Nombre"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextEdad"
+            android:layout_width="69dp"
+            android:layout_height="66dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true"
+            android:text="Edad"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextCel"
+            android:layout_width="256dp"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:selectAllOnFocus="true"
+            android:text="Celular"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="256dp"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            tools:text="E-mail" />
+
+        <Button
+            android:id="@+id/ButtonAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:enabled="false"
+            android:text="Agregar"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="352dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
